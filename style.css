@@ -1,0 +1,176 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.chenar{
+    margin: auto;
+    border: 5px outset;
+    border-radius: 25px;
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    background: linear-gradient(
+    to top,
+    white 0%,
+    white 90%,
+    #f1f1f1 10%,
+    #f1f1f1 100%
+    
+  );
+}
+.intra-in-cont{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: x-large;
+}
+.text-centru{
+    
+    text-align: center;
+}
+.text-email{
+    color: #434544;
+    margin:2px;
+    position: relative;
+    right: 130px;
+}
+.text-parola{
+    position: relative;
+    color: #434544;
+    margin:2px;
+    right: 130px;
+}
+.arata-parola{
+    position: absolute; 
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: .5rem;
+}
+.input-container{
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    width: 80%;
+    height: 45px;
+   
+}
+.input-container-password{
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    width: 80%;
+    height: 45px;
+   
+}
+.parola-uitata{
+   position: relative;
+   margin: 10px;
+   left: 100px;
+}
+.parola-uitata a{
+    color: black;
+    text-decoration: none;
+    font-weight: 999;
+    font-size: 16px;
+}
+.parola-uitata a:hover{
+    text-decoration: underline;
+}
+.buton-login{
+    background-image: linear-gradient(to right, #69bc27 0%, #50a80b  100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    border-radius: 25px;
+}
+.container-linie{
+margin: 20px;
+}
+.linie{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: #434544;
+    position: relative;
+    max-width: 500px;
+    margin: 25px auto;
+    text-align: center;
+}
+.linie::before{
+    content:" ";
+    height: 2px;
+    width: 110px;
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.linie::after{
+    content:" ";
+    height: 2px;
+    width: 110px;
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.facebook{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1877F2;
+    font-weight: 900;
+    font-size: 20px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 25px;
+}
+.apple{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #000000;
+    font-weight: 900;
+    font-size: 20px;
+    border: none;
+    color: white;
+    padding: 10px 45px;
+    text-align: center;
+    border-radius: 25px;
+    display: flex;
+    
+}
+.facebook-container{
+    padding: 10px 30px ;
+    position: absolute;
+    
+}
+.facebook-container i{
+    margin-right: 10px;
+}
+.apple-container{
+    position: relative;
+    padding: 10px 200px 30px; 
+}
+.apple-container i{
+    margin-top: 2px;
+    margin-right: 10px;
+}
+.nu-cont p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #434544;
+    margin:20px;
+}
+.nu-cont a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #434544;
+    text-decoration: none;
+    font-weight: 900;
+}
+.nu-cont a:hover{
+    color: #434544;
+    text-decoration: underline;
+}
